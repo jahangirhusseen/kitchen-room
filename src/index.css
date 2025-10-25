@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+@import "tailwindcss";
+@plugin "daisyui";
+
+* {
+  font-family: "Lexend", sans-serif;
+}
+.nav-Items {
+  @apply border-b-3 py-1 border-primary duration-200 hover:font-bold hover:border-amber-400 cursor-pointer;
+}
+
+.orderAreaBox {
+  @apply border-4 border-dotted rounded-2xl border-amber-400 p-5;
+}
+.orderAreaBoxContent {
+  @apply flex flex-col lg:flex-row items-center justify-between;
+}
+.orderAreaBoxTitle {
+  @apply text-xl text-center;
+}
+.orderAreaBoxSubTitle {
+  @apply text-6xl font-bold;
+}
