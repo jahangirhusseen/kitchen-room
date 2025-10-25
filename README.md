@@ -1,3 +1,43 @@
+# Kitchen Room Project
+
+## Demo: https://ph7kitchen-room.netlify.app/
+
+## Overview
+
+A modern and responsive kitchen management web application, built with clean UI and interactive features to manage kitchen items efficiently.
+
+## Features
+
+- Add, edit, and delete kitchen items
+- Track item availability
+- User-friendly interface
+- Responsive design for all devices
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jahangirhusseen/kitchen-room.git
+   ```
+2. Navigate to the project folder and install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the application:
+   ```bash
+   npm start
+   ```
+
+## Technologies Used
+
+- HTML, CSS, JavaScript
+- React.js (if applicable)
+- Node.js & Express (if backend included)
+
+## Contribution
+
+Feel free to fork the repository and submit pull requests for improvements.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -14,5 +54,3 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-<!-- CookingCard.jsx , OrderCard.jsx , ReadyCard.jsx -->
